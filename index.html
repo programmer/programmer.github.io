@@ -10,286 +10,151 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <div class="background-glow"></div>
+  <div class="background-glow"></div>
   <header class="site-header">
     <div class="brand">PointA</div>
     <nav class="nav-links">
-      <a data-href-en="#stories" data-href-fr="#histoires" data-label-en="Guides" data-label-fr="Guides" href="#stories">Guides</a>
-      <a data-href-en="blogs.html" data-href-fr="blogs.html#articles-fr" data-label-en="Blogs" data-label-fr="Blogues" href="blogs.html">Blogs</a>
-      <a data-href-en="#contact" data-href-fr="#contact-fr" data-label-en="Contact" data-label-fr="Contact" href="#contact">Contact</a>
+      <a href="#stories">Guides</a>
+      <a href="blogs.html">Blogs</a>
+      <a href="#contact">Contact</a>
     </nav>
     <div class="lang-toggle" aria-label="Language toggle">
-      <button type="button" class="pill is-active" data-lang="en">English</button>
-      <button type="button" class="pill pill--ghost" data-lang="fr">Français</button>
+      <a class="pill is-active" href="index.html">English</a>
+      <a class="pill pill--ghost" href="index-fr.html">Français</a>
     </div>
     <a class="pill" href="#contact">Let’s talk</a>
   </header>
 
   <main>
-    <div class="lang-view is-active" data-lang="en">
-      <section class="hero" data-animate>
-        <div class="hero__copy">
-          <p class="eyebrow">Post-secondary made simple</p>
-          <h1>Your starting point for college and university success.</h1>
-          <p class="lede">From applications to essays to choosing the right program, PointA walks you step by step through every part of getting into post-secondary without the stress.</p>
-          <div class="hero__cta">
-            <a class="pill pill--primary" href="#stories">Explore tutorials</a>
-            <a class="pill pill--ghost" href="#contact">Ask a question</a>
+    <section class="hero" data-animate>
+      <div class="hero__copy">
+        <p class="eyebrow">Post-secondary made simple</p>
+        <h1>Your starting point for college and university success.</h1>
+        <p class="lede">From applications to essays to choosing the right program, PointA walks you step by step through every part of getting into post-secondary without the stress.</p>
+        <div class="hero__cta">
+          <a class="pill pill--primary" href="#stories">Explore tutorials</a>
+          <a class="pill pill--ghost" href="#contact">Ask a question</a>
+        </div>
+      </div>
+      <figure class="hero__visual" data-pop>
+        <img src="greta-600x.png" alt="Student collage" />
+        <div class="floating-tag">applications</div>
+        <div class="floating-tag floating-tag--alt">planning</div>
+      </figure>
+    </section>
+
+    <section class="badge-trail" aria-hidden="true">
+      <div class="badge">no fluff</div>
+      <div class="badge">step by step</div>
+      <div class="badge">authentic guidance</div>
+      <div class="badge">student first</div>
+      <div class="badge">practical skills</div>
+    </section>
+
+    <section class="feature" data-animate>
+      <div class="feature__media" data-pop>
+        <a class="media-placeholder" href="#" aria-label="Placeholder for future video">Video placeholder</a>
+      </div>
+      <div class="feature__copy">
+        <p class="eyebrow">Learn at your pace</p>
+        <h2>Tutorials that turn big decisions into clear steps.</h2>
+        <p>Whether you are choosing programs, figuring out OUAC or OCAS, or preparing your supplemental applications, each lesson expands as you scroll. Clear and simple, never overwhelming.</p>
+        <ul class="chips">
+          <li>Short breakdowns</li>
+          <li>Visual explanations</li>
+          <li>Real examples</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="grid" id="stories">
+      <div class="grid__header">
+        <p class="eyebrow">Latest guides</p>
+        <h2>Start with what matters most</h2>
+      </div>
+      <div class="grid__items">
+        <article class="card" data-pop>
+          <div class="card__media">
+            <a class="media-placeholder" href="#" aria-label="Placeholder for tutorial">Placeholder</a>
           </div>
-        </div>
-        <figure class="hero__visual" data-pop>
-          <img src="greta-600x.png" alt="Student collage" />
-          <div class="floating-tag">applications</div>
-          <div class="floating-tag floating-tag--alt">planning</div>
-        </figure>
-      </section>
-
-      <section class="badge-trail" aria-hidden="true">
-        <div class="badge">no fluff</div>
-        <div class="badge">step by step</div>
-        <div class="badge">authentic guidance</div>
-        <div class="badge">student first</div>
-        <div class="badge">practical skills</div>
-      </section>
-
-      <section class="feature" data-animate>
-        <div class="feature__media" data-pop>
-          <a class="media-placeholder" href="#" aria-label="Placeholder for future video">Video placeholder</a>
-        </div>
-        <div class="feature__copy">
-          <p class="eyebrow">Learn at your pace</p>
-          <h2>Tutorials that turn big decisions into clear steps.</h2>
-          <p>Whether you are choosing programs, figuring out OUAC or OCAS, or preparing your supplemental applications, each lesson expands as you scroll. Clear and simple, never overwhelming.</p>
-          <ul class="chips">
-            <li>Short breakdowns</li>
-            <li>Visual explanations</li>
-            <li>Real examples</li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="grid" id="stories">
-        <div class="grid__header">
-          <p class="eyebrow">Latest guides</p>
-          <h2>Start with what matters most</h2>
-        </div>
-        <div class="grid__items">
-          <article class="card" data-pop>
-            <div class="card__media">
-              <a class="media-placeholder" href="#" aria-label="Placeholder for tutorial">Placeholder</a>
-            </div>
-            <div class="card__body">
-              <p class="eyebrow">Applications</p>
-              <h3>How to choose the right program</h3>
-              <p>A simple framework for comparing schools, programs, and outcomes. Clear reasoning, no filler.</p>
-            </div>
-          </article>
-
-          <article class="card" data-pop>
-            <div class="card__media">
-              <a class="media-placeholder" href="#" aria-label="Placeholder for tutorial">Placeholder</a>
-            </div>
-            <div class="card__body">
-              <p class="eyebrow">Essays and Supplements</p>
-              <h3>Writing a strong personal statement</h3>
-              <p>Tips, templates, and sample paragraphs to help you explain your story without sounding forced.</p>
-            </div>
-          </article>
-
-          <article class="card" data-pop>
-            <div class="card__media">
-              <a class="media-placeholder" href="#" aria-label="Placeholder for tutorial">Placeholder</a>
-            </div>
-            <div class="card__body">
-              <p class="eyebrow">Financial Aid</p>
-              <h3>OSAP, scholarships, and budgeting</h3>
-              <p>A student friendly explanation of funding, eligibility, and the most common mistakes to avoid.</p>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="values" id="values" data-animate>
-        <div class="values__content">
-          <p class="eyebrow">Our approach</p>
-          <h2>Guidance that feels supportive and calm</h2>
-          <div class="pill-list">
-            <span class="pill pill--primary">Clarity</span>
-            <span class="pill">Confidence</span>
-            <span class="pill pill--ghost">Direction</span>
-            <span class="pill">Accessibility</span>
+          <div class="card__body">
+            <p class="eyebrow">Applications</p>
+            <h3>How to choose the right program</h3>
+            <p>A simple framework for comparing schools, programs, and outcomes. Clear reasoning, no filler.</p>
           </div>
-          <p>PointA is designed to remove confusion around post-secondary. We turn complicated systems into easy steps so you can focus on choosing the right path, not decoding the process.</p>
-        </div>
-        <div class="values__art">
-          <img src="bol-600x.png" alt="Abstract collage" />
-          <img src="fist-600x.png" alt="Educational poster" />
-        </div>
-      </section>
+        </article>
 
-      <section class="contact" id="contact" data-animate>
-        <div class="contact__copy">
-          <p class="eyebrow">Need some guidance?</p>
-          <h2>Ask us anything about the process</h2>
-          <p>Whether you feel lost or just want a second opinion, send your question. We reply with honesty, clarity, and zero judgment.</p>
-          <form class="contact__form">
-            <label>
-              Name
-              <input type="text" placeholder="Your name" required />
-            </label>
-            <label>
-              Email
-              <input type="email" placeholder="you@example.com" required />
-            </label>
-            <label>
-              What do you need help with?
-              <textarea placeholder="Tell us your question" rows="3"></textarea>
-            </label>
-            <button type="submit" class="pill pill--primary">Send</button>
-          </form>
-        </div>
-        <div class="contact__aside">
-          <div class="sticky-note" data-pop>
-            <p>"PointA helped me go from overwhelmed to confident. Their guides made everything easier."</p>
-            <span>Happy student</span>
+        <article class="card" data-pop>
+          <div class="card__media">
+            <a class="media-placeholder" href="#" aria-label="Placeholder for tutorial">Placeholder</a>
           </div>
-          <img src="ricky-600x.png" alt="Student collage" class="contact__img" />
-        </div>
-      </section>
-    </div>
-
-    <div class="lang-view" data-lang="fr">
-      <section class="hero" data-animate id="accueil-fr">
-        <div class="hero__copy">
-          <p class="eyebrow">Lancement en douceur</p>
-          <h1>Votre point de départ pour réussir au cégep et à l’université.</h1>
-          <p class="lede">Retrouvez une version française prête à modifier : ajustez les titres, les paragraphes et les appels à l’action pour créer votre propre ton.</p>
-          <div class="hero__cta">
-            <a class="pill pill--primary" href="#histoires">Voir les guides</a>
-            <a class="pill pill--ghost" href="#contact-fr">Poser une question</a>
+          <div class="card__body">
+            <p class="eyebrow">Essays and Supplements</p>
+            <h3>Writing a strong personal statement</h3>
+            <p>Tips, templates, and sample paragraphs to help you explain your story without sounding forced.</p>
           </div>
-        </div>
-        <figure class="hero__visual" data-pop>
-          <img src="greta-600x.png" alt="Collage étudiant" />
-          <div class="floating-tag">dossiers</div>
-          <div class="floating-tag floating-tag--alt">organisation</div>
-        </figure>
-      </section>
+        </article>
 
-      <section class="badge-trail" aria-hidden="true">
-        <div class="badge">pas de jargon</div>
-        <div class="badge">étapes claires</div>
-        <div class="badge">calme</div>
-        <div class="badge">humain</div>
-        <div class="badge">pratique</div>
-      </section>
-
-      <section class="feature" data-animate>
-        <div class="feature__copy">
-          <p class="eyebrow">Parcours éditable</p>
-          <h2>Un gabarit français à personnaliser.</h2>
-          <p>Utilisez cette mise en page comme base : remplacez le texte par vos traductions, changez les liens et ajustez les puces pour raconter votre approche en français.</p>
-          <ul class="chips">
-            <li>Sections prêtes à modifier</li>
-            <li>Ton chaleureux</li>
-            <li>Aligné sur le design original</li>
-          </ul>
-        </div>
-        <div class="feature__media" data-pop>
-          <a class="media-placeholder" href="#" aria-label="Zone pour votre média">Ajoutez votre média</a>
-        </div>
-      </section>
-
-      <section class="grid" id="histoires">
-        <div class="grid__header">
-          <p class="eyebrow">Guides en vedette</p>
-          <h2>Commencez par l’essentiel</h2>
-          <p class="lede">Chaque carte ci-dessous peut être renommée : insérez vos propres titres, sous-titres et liens vers des ressources en français.</p>
-        </div>
-        <div class="grid__items">
-          <article class="card" data-pop>
-            <div class="card__media">
-              <a class="media-placeholder" href="#" aria-label="Espace visuel">Remplacer l’image</a>
-            </div>
-            <div class="card__body">
-              <p class="eyebrow">Admissions</p>
-              <h3>Choisir le bon programme (FR)</h3>
-              <p>Adaptez ce paragraphe pour expliquer vos conseils sur la sélection des programmes et des écoles.</p>
-            </div>
-          </article>
-
-          <article class="card" data-pop>
-            <div class="card__media">
-              <a class="media-placeholder" href="#" aria-label="Espace visuel">Remplacer l’image</a>
-            </div>
-            <div class="card__body">
-              <p class="eyebrow">Rédaction</p>
-              <h3>Écrire une lettre de motivation</h3>
-              <p>Utilisez vos propres exemples, modèles ou conseils pour guider les étudiants francophones.</p>
-            </div>
-          </article>
-
-          <article class="card" data-pop>
-            <div class="card__media">
-              <a class="media-placeholder" href="#" aria-label="Espace visuel">Remplacer l’image</a>
-            </div>
-            <div class="card__body">
-              <p class="eyebrow">Finances</p>
-              <h3>Bourses et budget</h3>
-              <p>Décrivez les ressources, les étapes OSAP/AFE ou les conseils que vous souhaitez partager.</p>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="values" id="approche-fr" data-animate>
-        <div class="values__art">
-          <img src="bol-600x.png" alt="Affiche abstraite" />
-          <img src="fist-600x.png" alt="Affiche éducative" />
-        </div>
-        <div class="values__content">
-          <p class="eyebrow">Notre approche</p>
-          <h2>Un accompagnement clair et rassurant</h2>
-          <div class="pill-list">
-            <span class="pill pill--primary">Clarté</span>
-            <span class="pill">Confiance</span>
-            <span class="pill pill--ghost">Direction</span>
-            <span class="pill">Accessibilité</span>
+        <article class="card" data-pop>
+          <div class="card__media">
+            <a class="media-placeholder" href="#" aria-label="Placeholder for tutorial">Placeholder</a>
           </div>
-          <p>Remplacez ou ajustez cette description pour détailler votre manière d’aider les étudiants en français.</p>
-        </div>
-      </section>
-
-      <section class="contact" id="contact-fr" data-animate>
-        <div class="contact__copy">
-          <p class="eyebrow">Besoin d’un coup de main ?</p>
-          <h2>Écrivez-nous votre question</h2>
-          <p>Ajoutez votre propre formulaire ou gardez celui-ci pour recevoir les demandes en français. Tous les champs peuvent être renommés.</p>
-          <form class="contact__form">
-            <label>
-              Nom
-              <input type="text" placeholder="Votre nom" required />
-            </label>
-            <label>
-              Courriel
-              <input type="email" placeholder="vous@example.com" required />
-            </label>
-            <label>
-              Ce qu’il vous faut
-              <textarea placeholder="Expliquez votre question" rows="3"></textarea>
-            </label>
-            <button type="submit" class="pill pill--primary">Envoyer</button>
-          </form>
-        </div>
-        <div class="contact__aside">
-          <div class="sticky-note" data-pop>
-            <p>« Cette version française est prête à être personnalisée pour votre site. »</p>
-            <span>Équipe PointA</span>
+          <div class="card__body">
+            <p class="eyebrow">Financial Aid</p>
+            <h3>OSAP, scholarships, and budgeting</h3>
+            <p>A student friendly explanation of funding, eligibility, and the most common mistakes to avoid.</p>
           </div>
-          <img src="ricky-600x.png" alt="Collage étudiant" class="contact__img" />
+        </article>
+      </div>
+    </section>
+
+    <section class="values" id="values" data-animate>
+      <div class="values__content">
+        <p class="eyebrow">Our approach</p>
+        <h2>Guidance that feels supportive and calm</h2>
+        <div class="pill-list">
+          <span class="pill pill--primary">Clarity</span>
+          <span class="pill">Confidence</span>
+          <span class="pill pill--ghost">Direction</span>
+          <span class="pill">Accessibility</span>
         </div>
-      </section>
-    </div>
+        <p>PointA is designed to remove confusion around post-secondary. We turn complicated systems into easy steps so you can focus on choosing the right path, not decoding the process.</p>
+      </div>
+      <div class="values__art">
+        <img src="bol-600x.png" alt="Abstract collage" />
+        <img src="fist-600x.png" alt="Educational poster" />
+      </div>
+    </section>
+
+    <section class="contact" id="contact" data-animate>
+      <div class="contact__copy">
+        <p class="eyebrow">Need some guidance?</p>
+        <h2>Ask us anything about the process</h2>
+        <p>Whether you feel lost or just want a second opinion, send your question. We reply with honesty, clarity, and zero judgment.</p>
+        <form class="contact__form">
+          <label>
+            Name
+            <input type="text" placeholder="Your name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" placeholder="you@example.com" required />
+          </label>
+          <label>
+            What do you need help with?
+            <textarea placeholder="Tell us your question" rows="3"></textarea>
+          </label>
+          <button type="submit" class="pill pill--primary">Send</button>
+        </form>
+      </div>
+      <div class="contact__aside">
+        <div class="sticky-note" data-pop>
+          <p>"PointA helped me go from overwhelmed to confident. Their guides made everything easier."</p>
+          <span>Happy student</span>
+        </div>
+        <img src="ricky-600x.png" alt="Student collage" class="contact__img" />
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer">
