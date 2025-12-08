@@ -1,4 +1,5 @@
- z-index: 0;
+@@ -39,82 +39,98 @@ body {
+  z-index: 0;
 }
 
 .site-header {
@@ -58,27 +59,17 @@
   border-color: var(--line);
   background: rgba(255, 255, 255, 0.05);
 }
-main {
-  position: relative;
-  z-index: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 72px;
-}
-
-.lang-view {
-  display: none;
-  flex-direction: column;
-  gap: 72px;
-}
-
-.lang-view.is-active {
-  display: flex;
-}
-
-.hero {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+main {␊
+  position: relative;␊
+  z-index: 1;␊
+  display: flex;␊
+  flex-direction: column;␊
+  gap: 72px;␊
+}␊
+␊
+.hero {␊
+  display: grid;␊
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));␊
   gap: 32px;
   align-items: center;
   padding: 40px clamp(16px, 2vw, 32px);
@@ -100,7 +91,11 @@ main {
 }
 
 .hero__cta {
-@@ -405,55 +431,71 @@ main {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+  flex-wrap: wrap;
+@@ -405,55 +421,71 @@ main {
 .pill {
   padding: 10px 16px;
   border-radius: 999px;
@@ -125,7 +120,8 @@ main {
 .pill--ghost {
   border-color: rgba(255, 255, 255, 0.4);
 }
-  .pill-list {
+
+ .pill-list {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
@@ -171,7 +167,7 @@ main {
   animation: pop 0.7s ease forwards;
 }
 
-@@ -469,35 +511,40 @@ main {
+@@ -469,35 +501,40 @@ main {
   }
 }
 
@@ -196,7 +192,7 @@ main {
     flex-wrap: wrap;
     gap: 10px;
   }
-  .nav-links {
+ .nav-links {
     width: 100%;
     justify-content: center;
   }
