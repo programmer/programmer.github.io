@@ -14,313 +14,163 @@
   <header class="site-header">
     <div class="brand">PointA</div>
     <nav class="nav-links">
-      <a data-href-en="index.html#stories" data-href-fr="index.html#histoires" data-label-en="Guides" data-label-fr="Guides" href="index.html#stories">Guides</a>
-      <a data-href-en="blogs.html" data-href-fr="#articles-fr" data-label-en="Blogs" data-label-fr="Blogues" href="blogs.html">Blogs</a>
-      <a data-href-en="#contact" data-href-fr="#contact-fr" data-label-en="Contact" data-label-fr="Contact" href="#contact">Contact</a>
+      <a href="index.html#stories">Guides</a>
+      <a href="blogs.html">Blogs</a>
+      <a href="#contact">Contact</a>
     </nav>
     <div class="lang-toggle" aria-label="Language toggle">
-      <button type="button" class="pill is-active" data-lang="en">English</button>
-      <button type="button" class="pill pill--ghost" data-lang="fr">Français</button>
+      <a class="pill is-active" href="blogs.html">English</a>
+      <a class="pill pill--ghost" href="blogs-fr.html">Français</a>
     </div>
     <a class="pill" href="#contact">Let’s talk</a>
   </header>
 
   <main>
-    <div class="lang-view is-active" data-lang="en">
-      <section class="hero" data-animate>
-        <div class="hero__copy">
-          <p class="eyebrow">PointA perspectives</p>
-          <h1>Stories, reflections, and advice from the team.</h1>
-          <p class="lede">Browse our latest blog posts for behind-the-scenes thinking, student stories, and practical tips you can adapt to your own journey.</p>
-          <div class="hero__cta">
-            <a class="pill pill--primary" href="#posts">Read the blog</a>
-            <a class="pill pill--ghost" href="index.html#stories">See tutorials</a>
+    <section class="hero" data-animate>
+      <div class="hero__copy">
+        <p class="eyebrow">PointA perspectives</p>
+        <h1>Stories, reflections, and advice from the team.</h1>
+        <p class="lede">Browse our latest blog posts for behind-the-scenes thinking, student stories, and practical tips you can adapt to your own journey.</p>
+        <div class="hero__cta">
+          <a class="pill pill--primary" href="#posts">Read the blog</a>
+          <a class="pill pill--ghost" href="index.html#stories">See tutorials</a>
+        </div>
+      </div>
+      <figure class="hero__visual" data-pop>
+        <img src="greta-600x.png" alt="Collage for blog feature" />
+        <div class="floating-tag">fresh ideas</div>
+        <div class="floating-tag floating-tag--alt">student voices</div>
+      </figure>
+    </section>
+
+    <section class="grid" id="posts" data-animate>
+      <div class="grid__header">
+        <p class="eyebrow">Latest blogs</p>
+        <h2>Six posts you can rename and edit</h2>
+        <p class="lede">Use these starting points to share program highlights, application advice, or personal stories—swap the headlines and blurbs to fit your voice.</p>
+      </div>
+      <div class="grid__items">
+        <article class="card" data-pop>
+          <div class="card__media">
+            <a class="media-placeholder" href="#" aria-label="Placeholder for blog visual">Placeholder</a>
           </div>
-        </div>
-        <figure class="hero__visual" data-pop>
-          <img src="greta-600x.png" alt="Collage for blog feature" />
-          <div class="floating-tag">fresh ideas</div>
-          <div class="floating-tag floating-tag--alt">student voices</div>
-        </figure>
-      </section>
-
-      <section class="grid" id="posts" data-animate>
-        <div class="grid__header">
-          <p class="eyebrow">Latest blogs</p>
-          <h2>Six posts you can rename and edit</h2>
-          <p class="lede">Use these starting points to share program highlights, application advice, or personal stories—swap the headlines and blurbs to fit your voice.</p>
-        </div>
-        <div class="grid__items">
-          <article class="card" data-pop>
-            <div class="card__media">
-              <a class="media-placeholder" href="#" aria-label="Placeholder for blog visual">Placeholder</a>
+          <div class="card__body">
+            <p class="eyebrow">Planning</p>
+            <h3>Mapping out your semester with confidence</h3>
+            <p>Break down your goals, set weekly checkpoints, and build a routine that keeps your stress low and momentum high.</p>
+            <div class="post-meta">
+              <span>4 min read</span>
+              <span>Update headline + summary as needed</span>
             </div>
-            <div class="card__body">
-              <p class="eyebrow">Planning</p>
-              <h3>Mapping out your semester with confidence</h3>
-              <p>Break down your goals, set weekly checkpoints, and build a routine that keeps your stress low and momentum high.</p>
-              <div class="post-meta">
-                <span>4 min read</span>
-                <span>Update headline + summary as needed</span>
-              </div>
-            </div>
-          </article>
-
-          <article class="card" data-pop>
-            <div class="card__media">
-              <a class="media-placeholder" href="#" aria-label="Placeholder for blog visual">Placeholder</a>
-            </div>
-            <div class="card__body">
-              <p class="eyebrow">Applications</p>
-              <h3>What we’d change about our first applications</h3>
-              <p>Honest lessons learned from alumni about essays, references, and how to advocate for yourself without overselling.</p>
-              <div class="post-meta">
-                <span>6 min read</span>
-                <span>Easily replace this blurb and timing</span>
-              </div>
-            </div>
-          </article>
-
-          <article class="card" data-pop>
-            <div class="card__media">
-              <a class="media-placeholder" href="#" aria-label="Placeholder for blog visual">Placeholder</a>
-            </div>
-            <div class="card__body">
-              <p class="eyebrow">Student Life</p>
-              <h3>Building community when you are new on campus</h3>
-              <p>Simple ways to meet people, find mentors, and join groups that match your interests without overcommitting.</p>
-              <div class="post-meta">
-                <span>5 min read</span>
-                <span>Edit the description to fit your story</span>
-              </div>
-            </div>
-          </article>
-
-          <article class="card" data-pop>
-            <div class="card__media">
-              <a class="media-placeholder" href="#" aria-label="Placeholder for blog visual">Placeholder</a>
-            </div>
-            <div class="card__body">
-              <p class="eyebrow">Essays</p>
-              <h3>Drafting a personal statement in one weekend</h3>
-              <p>A repeatable sprint: gather examples, draft fast, then revise with a checklist that keeps your writing honest.</p>
-              <div class="post-meta">
-                <span>4 min read</span>
-                <span>Swap in your own template or notes</span>
-              </div>
-            </div>
-          </article>
-
-          <article class="card" data-pop>
-            <div class="card__media">
-              <a class="media-placeholder" href="#" aria-label="Placeholder for blog visual">Placeholder</a>
-            </div>
-            <div class="card__body">
-              <p class="eyebrow">Financial Aid</p>
-              <h3>Stretching your budget without missing out</h3>
-              <p>Practical budgeting, part-time work ideas, and scholarship reminders you can tailor to your own situation.</p>
-              <div class="post-meta">
-                <span>7 min read</span>
-                <span>Replace with notes or links you prefer</span>
-              </div>
-            </div>
-          </article>
-
-          <article class="card" data-pop>
-            <div class="card__media">
-              <a class="media-placeholder" href="#" aria-label="Placeholder for blog visual">Placeholder</a>
-            </div>
-            <div class="card__body">
-              <p class="eyebrow">Mindset</p>
-              <h3>Balancing ambition with rest during deadlines</h3>
-              <p>How to pace yourself, protect focus blocks, and recover when application season gets hectic.</p>
-              <div class="post-meta">
-                <span>3 min read</span>
-                <span>Feel free to update tone and details</span>
-              </div>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="contact" id="contact" data-animate>
-        <div class="contact__copy">
-          <p class="eyebrow">Want us to cover something?</p>
-          <h2>Tell us what topics you need next</h2>
-          <p>Share a prompt, question, or experience you want us to unpack. We’ll use your input to shape the next posts.</p>
-          <form class="contact__form">
-            <label>
-              Name
-              <input type="text" placeholder="Your name" required />
-            </label>
-            <label>
-              Email
-              <input type="email" placeholder="you@example.com" required />
-            </label>
-            <label>
-              Blog request
-              <textarea placeholder="What should we write about?" rows="3"></textarea>
-            </label>
-            <button type="submit" class="pill pill--primary">Send</button>
-          </form>
-        </div>
-        <div class="contact__aside">
-          <div class="sticky-note" data-pop>
-            <p>"I keep coming back to the blog when I need calm, clear answers."</p>
-            <span>PointA reader</span>
           </div>
-          <img src="ricky-600x.png" alt="Student collage" class="contact__img" />
-        </div>
-      </section>
-    </div>
+        </article>
 
-    <div class="lang-view" data-lang="fr" id="articles-fr">
-      <section class="hero" data-animate>
-        <div class="hero__copy">
-          <p class="eyebrow">Blogue PointA</p>
-          <h1>Articles en français à adapter.</h1>
-          <p class="lede">Servez-vous de cette version pour traduire ou réécrire vos billets : chaque carte, lien et bouton peut être modifié.</p>
-          <div class="hero__cta">
-            <a class="pill pill--primary" href="#articles-fr">Voir les articles</a>
-            <a class="pill pill--ghost" href="index.html#histoires">Guides FR</a>
+        <article class="card" data-pop>
+          <div class="card__media">
+            <a class="media-placeholder" href="#" aria-label="Placeholder for blog visual">Placeholder</a>
           </div>
-        </div>
-        <figure class="hero__visual" data-pop>
-          <img src="greta-600x.png" alt="Collage pour le blogue" />
-          <div class="floating-tag">idées</div>
-          <div class="floating-tag floating-tag--alt">parcours</div>
-        </figure>
-      </section>
-
-      <section class="grid" data-animate>
-        <div class="grid__header">
-          <p class="eyebrow">Articles récents</p>
-          <h2>Six cartes prêtes à renommer</h2>
-          <p class="lede">Changez les titres, les catégories ou les durées pour refléter vos traductions et votre ton.</p>
-        </div>
-        <div class="grid__items">
-          <article class="card" data-pop>
-            <div class="card__media">
-              <a class="media-placeholder" href="#" aria-label="Espace visuel">Ajouter votre visuel</a>
+          <div class="card__body">
+            <p class="eyebrow">Applications</p>
+            <h3>What we’d change about our first applications</h3>
+            <p>Honest lessons learned from alumni about essays, references, and how to advocate for yourself without overselling.</p>
+            <div class="post-meta">
+              <span>6 min read</span>
+              <span>Easily replace this blurb and timing</span>
             </div>
-            <div class="card__body">
-              <p class="eyebrow">Planification</p>
-              <h3>Organiser son trimestre</h3>
-              <p>Mettez ici vos conseils pratiques en français : routines hebdomadaires, jalons, ou ressources utiles.</p>
-              <div class="post-meta">
-                <span>4 min</span>
-                <span>Texte modifiable</span>
-              </div>
-            </div>
-          </article>
-
-          <article class="card" data-pop>
-            <div class="card__media">
-              <a class="media-placeholder" href="#" aria-label="Espace visuel">Ajouter votre visuel</a>
-            </div>
-            <div class="card__body">
-              <p class="eyebrow">Admissions</p>
-              <h3>Ce qu’on changerait</h3>
-              <p>Insérez vos anecdotes ou conseils sur les demandes d’admission, les lettres et les références.</p>
-              <div class="post-meta">
-                <span>6 min</span>
-                <span>Libre à modifier</span>
-              </div>
-            </div>
-          </article>
-
-          <article class="card" data-pop>
-            <div class="card__media">
-              <a class="media-placeholder" href="#" aria-label="Espace visuel">Ajouter votre visuel</a>
-            </div>
-            <div class="card__body">
-              <p class="eyebrow">Vie étudiante</p>
-              <h3>Se créer un réseau</h3>
-              <p>Ajoutez vos astuces pour rencontrer des pairs, trouver des mentors et rejoindre des clubs.</p>
-              <div class="post-meta">
-                <span>5 min</span>
-                <span>Texte de remplacement</span>
-              </div>
-            </div>
-          </article>
-
-          <article class="card" data-pop>
-            <div class="card__media">
-              <a class="media-placeholder" href="#" aria-label="Espace visuel">Ajouter votre visuel</a>
-            </div>
-            <div class="card__body">
-              <p class="eyebrow">Rédaction</p>
-              <h3>Lettre en un week-end</h3>
-              <p>Personnalisez cette description pour détailler votre méthode de rédaction express.</p>
-              <div class="post-meta">
-                <span>4 min</span>
-                <span>À éditer</span>
-              </div>
-            </div>
-          </article>
-
-          <article class="card" data-pop>
-            <div class="card__media">
-              <a class="media-placeholder" href="#" aria-label="Espace visuel">Ajouter votre visuel</a>
-            </div>
-            <div class="card__body">
-              <p class="eyebrow">Aide financière</p>
-              <h3>Faire durer son budget</h3>
-              <p>Remplacez par vos rappels de bourses, vos modèles de budget ou vos idées d’emplois étudiants.</p>
-              <div class="post-meta">
-                <span>7 min</span>
-                <span>Informations à adapter</span>
-              </div>
-            </div>
-          </article>
-
-          <article class="card" data-pop>
-            <div class="card__media">
-              <a class="media-placeholder" href="#" aria-label="Espace visuel">Ajouter votre visuel</a>
-            </div>
-            <div class="card__body">
-              <p class="eyebrow">Équilibre</p>
-              <h3>Garder le rythme</h3>
-              <p>Décrivez comment concilier ambition et repos pendant les périodes chargées.</p>
-              <div class="post-meta">
-                <span>3 min</span>
-                <span>Modifiez la tonalité</span>
-              </div>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="contact" id="contact-fr" data-animate>
-        <div class="contact__copy">
-          <p class="eyebrow">Une idée d’article ?</p>
-          <h2>Envoyez votre suggestion</h2>
-          <p>Personnalisez ce formulaire ou gardez-le tel quel pour recueillir des demandes en français.</p>
-          <form class="contact__form">
-            <label>
-              Nom
-              <input type="text" placeholder="Votre nom" required />
-            </label>
-            <label>
-              Courriel
-              <input type="email" placeholder="vous@example.com" required />
-            </label>
-            <label>
-              Sujet du blogue
-              <textarea placeholder="Sur quoi devrions-nous écrire ?" rows="3"></textarea>
-            </label>
-            <button type="submit" class="pill pill--primary">Envoyer</button>
-          </form>
-        </div>
-        <div class="contact__aside">
-          <div class="sticky-note" data-pop>
-            <p>« Cette section blogue en français est prête pour vos mots. »</p>
-            <span>Lecteur PointA</span>
           </div>
-          <img src="ricky-600x.png" alt="Collage étudiant" class="contact__img" />
+        </article>
+
+        <article class="card" data-pop>
+          <div class="card__media">
+            <a class="media-placeholder" href="#" aria-label="Placeholder for blog visual">Placeholder</a>
+          </div>
+          <div class="card__body">
+            <p class="eyebrow">Student Life</p>
+            <h3>Building community when you are new on campus</h3>
+            <p>Simple ways to meet people, find mentors, and join groups that match your interests without overcommitting.</p>
+            <div class="post-meta">
+              <span>5 min read</span>
+              <span>Edit the description to fit your story</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-pop>
+          <div class="card__media">
+            <a class="media-placeholder" href="#" aria-label="Placeholder for blog visual">Placeholder</a>
+          </div>
+          <div class="card__body">
+            <p class="eyebrow">Essays</p>
+            <h3>Drafting a personal statement in one weekend</h3>
+            <p>A repeatable sprint: gather examples, draft fast, then revise with a checklist that keeps your writing honest.</p>
+            <div class="post-meta">
+              <span>4 min read</span>
+              <span>Swap in your own template or notes</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-pop>
+          <div class="card__media">
+            <a class="media-placeholder" href="#" aria-label="Placeholder for blog visual">Placeholder</a>
+          </div>
+          <div class="card__body">
+            <p class="eyebrow">Financial Aid</p>
+            <h3>Stretching your budget without missing out</h3>
+            <p>Practical budgeting, part-time work ideas, and scholarship reminders you can tailor to your own situation.</p>
+            <div class="post-meta">
+              <span>7 min read</span>
+              <span>Replace with notes or links you prefer</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-pop>
+          <div class="card__media">
+            <a class="media-placeholder" href="#" aria-label="Placeholder for blog visual">Placeholder</a>
+          </div>
+          <div class="card__body">
+            <p class="eyebrow">Mindset</p>
+            <h3>Balancing ambition with rest during deadlines</h3>
+            <p>How to pace yourself, protect focus blocks, and recover when application season gets hectic.</p>
+            <div class="post-meta">
+              <span>3 min read</span>
+              <span>Feel free to update tone and details</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact" id="contact" data-animate>
+      <div class="contact__copy">
+        <p class="eyebrow">Want us to cover something?</p>
+        <h2>Tell us what topics you need next</h2>
+        <p>Share a prompt, question, or experience you want us to unpack. We’ll use your input to shape the next posts.</p>
+        <form class="contact__form">
+          <label>
+            Name
+            <input type="text" placeholder="Your name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" placeholder="you@example.com" required />
+          </label>
+          <label>
+            Blog request
+            <textarea placeholder="What should we write about?" rows="3"></textarea>
+          </label>
+          <button type="submit" class="pill pill--primary">Send</button>
+        </form>
+      </div>
+      <div class="contact__aside">
+        <div class="sticky-note" data-pop>
+          <p>"I keep coming back to the blog when I need calm, clear answers."</p>
+          <span>PointA reader</span>
         </div>
-      </section>
-    </div>
+        <img src="ricky-600x.png" alt="Student collage" class="contact__img" />
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer">
